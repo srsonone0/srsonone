@@ -1,0 +1,30 @@
+create table RestaurantA
+(
+RestId int Primary Key,
+RestName varchar(100)not null,
+RestPhoneNo int unique not null,
+RestAddress varchar(100) not null,
+RestOpeningTime time not null,
+RestClosingTime time not null,
+RestCuisine varchar(100)not null,
+RestStatus varchar(100)not null,
+)
+select * from RestaurantA
+insert into RestaurantA(RestId,RestName,RestAddress,RestOpeningTime,RestClosingTime,RestCuisine,RestStatus) VALUES (1001,'The Table',8080429748,'Mumbai','09:00:00','20:00:00','Indian','Active')
+ insert into RestaurantA(RestId,RestName,RestAddress,RestOpeningTime,RestClosingTime,RestCuisine,RestStatus) VALUES (1002,'Fore Seasons Hoel',8081429749,'mumbai','12:00:00','23:00:00','Chinese','Active')
+ insert into RestaurantA(RestId,RestName,RestAddress,RestOpeningTime,RestClosingTime,RestCuisine,RestStatus) VALUES (1003,'Pancharatn Restaurant',8180429748,'Panchratn Naka,Panvel','08:00:00','22:00:00','Indian','Active')
+ insert into RestaurantA(RestId,RestName,RestAddress,RestOpeningTime,RestClosingTime,RestCuisine,RestStatus) VALUES (1004,'ITC Maratha Restaurant',8180439748,'Mumbai','19:00:00','08:00:00','Indian','Deactive')
+ insert into RestaurantA(RestId,RestName,RestAddress,RestOpeningTime,RestClosingTime,RestCuisine,RestStatus) VALUES (1005,'Novotel Restaurant',8880429748,'Juhu Beach,Mumbai','08:00:00','22:00:00','Italian','Active')
+ insert into RestaurantA(RestId,RestName,RestAddress,RestOpeningTime,RestClosingTime,RestCuisine,RestStatus) VALUES (1006,'JW Marriott',8680429742,'Juhu,Mumbai','00:01:01','23:59:59','Maxican','Active')
+ insert into RestaurantA(RestId,RestName,RestAddress,RestOpeningTime,RestClosingTime,RestCuisine,RestStatus) VALUES (1007,'The Leela Restaurant '8983529748,,'Mumbai','08:00:00','22:00:00','Indian','Active')
+ insert into RestaurantA(RestId,RestName,RestAddress,RestOpeningTime,RestClosingTime,RestCuisine,RestStatus)VALUES (1008,'Trident Restaurant',8088429744,'Nariman point,Mumbai','22:00:00','06:00:00','Indian','Deactive')
+ insert into RestaurantA(RestId,RestName,RestAddress,RestOpeningTime,RestClosingTime,RestCuisine,RestStatus) VALUES (1009,'Shara Star Restaurant'8580429748,,'Mumbai','21:00:00','08:00:00','Indian','Deactive')
+ insert into RestaurantA(RestId,RestName,RestAddress,RestOpeningTime,RestClosingTime,RestCuisine,RestStatus) VALUES (1010,'Nawab Shab Restaurant',8080429748,'Mumbai','08:00:00','22:00:00','Indian','Active')
+ insert into RestaurantA(RestId,RestName,RestAddress,RestOpeningTime,RestClosingTime,RestCuisine,RestStatus) VALUES (10011,'Mughalai Restaurant',8680429742,'Mumbai','08:01:01','23:59:59','Maxican','Active')
+ insert into RestaurantA(RestId,RestName,RestAddress,RestOpeningTime,RestClosingTime,RestCuisine,RestStatus) VALUES (10012,'Kokila  Restaurant'8788429748,,'Mumbai','08:00:00','22:00:00','Indian','Active')
+ insert into RestaurantA(RestId,RestName,RestAddress,RestOpeningTime,RestClosingTime,RestCuisine,RestStatus) VALUES (10013,'Bastian Restaurant',8088429744,'Bandra,Mumbai','23:00:00','06:00:00','Indian','Deactive')
+ insert into RestaurantA(RestId,RestName,RestAddress,RestOpeningTime,RestClosingTime,RestCuisine,RestStatus) VALUES (10014,'Namak Restaurant'8580423748,,'Mumbai','11:00:00','08:00:00','Indian','Deactive')
+ insert into RestaurantA(RestId,RestName,RestAddress,RestOpeningTime,RestClosingTime,RestCuisine,RestStatus) VALUES (10015,'Fifty Five East Restaurant',8080429848,'Mumbai','09:00:00','22:00:00','Indian','Active')
+
+
+
